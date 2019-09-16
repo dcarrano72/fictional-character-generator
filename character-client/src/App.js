@@ -8,9 +8,11 @@ import './App.css';
 class App extends React.Component {
   constructor(props) {
     super(props)
+
     this.state = {
       novels: []
     }
+    this.getNovels = this.getNovels.bind(this)
   }
   componentDidMount() {
     this.getNovels()
@@ -18,17 +20,22 @@ class App extends React.Component {
   getNovels() {
     fetch('http://localhost:3000/novels')
       .then(response => response.json())
-      .then(json => console.log(json))
+      .then(json => this.setState({
+        novels: json
+      }))
       .catch(error => console.error(error))
   }
+
   render() {
     return (
       <div className="App">
-        <div className="container">
-          <Header />
-          <Main />
-          <Footer />
-        </div>
+
+
+        <Header />
+        <Main novels={this.state.novels} />
+        <Footer />
+
+
       </div>
     )
   }

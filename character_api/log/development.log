@@ -268,3 +268,443 @@ Processing by NovelsController#index as */*
 Completed 200 OK in 65ms (Views: 0.2ms | ActiveRecord: 10.1ms | Allocations: 17554)
 
 
+Started GET "/novels" for ::1 at 2019-09-14 08:58:15 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.4ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:09:59 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.1ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.7ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 3.3ms | Allocations: 3718)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:10:05 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (2.8ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (2.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 6.1ms | Allocations: 3592)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:14:31 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:26:04 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.2ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (5.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 8.4ms | Allocations: 3705)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:30:30 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.8ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 10.4ms | Allocations: 17554)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:30:40 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (2.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (4.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 8.4ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:56:12 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.3ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 2.8ms | Allocations: 3721)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 09:58:45 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (2.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (4.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (3.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 0.8ms | ActiveRecord: 10.4ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:21:28 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.1ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.7ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.6ms | Allocations: 3718)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:22:45 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (1.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:23:44 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.4ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:28:47 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:46:33 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 3.1ms | Allocations: 3704)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:48:39 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.6ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:54:42 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.0ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.4ms | Allocations: 3704)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:55:04 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.4ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:57:15 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 10:58:09 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:00:59 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (2.0ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (4.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (2.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 8.6ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:05:19 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:06:01 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:07:26 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (1.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:07:46 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.4ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 11:09:43 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 1.2ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 14:34:03 -0400
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.7ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 0.2ms | ActiveRecord: 9.8ms | Allocations: 17554)
+
+
+Started GET "/novels" for ::1 at 2019-09-14 14:35:13 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (3.3ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (3.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (3.7ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 10.4ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-15 07:45:17 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.6ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 0.4ms | ActiveRecord: 9.6ms | Allocations: 17554)
+
+
+Started GET "/novels" for ::1 at 2019-09-15 07:45:52 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.7ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.9ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 2.1ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-15 15:43:07 -0400
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.7ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.7ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 75ms (Views: 0.3ms | ActiveRecord: 11.2ms | Allocations: 17554)
+
+
+Started GET "/characters" for ::1 at 2019-09-15 15:46:25 -0400
+Processing by CharactersController#index as */*
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  ↳ app/controllers/characters_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1883)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:52:28 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.3ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.7ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 0.6ms | ActiveRecord: 3.0ms | Allocations: 3719)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:53:32 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (1.3ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (4.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (1.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 6.7ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:09 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 1.5ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:09 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (1.1ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:14 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (5.6ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (6.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (8.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 0.3ms | ActiveRecord: 20.4ms | Allocations: 3589)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:23 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.4ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 3573)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:28 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (2.3ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (2.0ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (9.6ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 13.9ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:55:31 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.4ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.4ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 1.3ms | Allocations: 3572)
+
+
+Started GET "/novels" for ::1 at 2019-09-16 08:56:00 -0400
+Processing by NovelsController#index as */*
+  [1m[36mNovel Load (0.5ms)[0m  [1m[34mSELECT "novels".* FROM "novels"[0m
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.3ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 1]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+  [1m[36mCharacter Load (0.5ms)[0m  [1m[34mSELECT "characters".* FROM "characters" WHERE "characters"."novel_id" = $1[0m  [["novel_id", 2]]
+  ↳ app/controllers/novels_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 0.1ms | ActiveRecord: 1.3ms | Allocations: 3572)
+
+

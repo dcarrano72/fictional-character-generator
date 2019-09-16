@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-            <h1>Fictitious Character Generator</h1>
+            <h1>Fictional Character Generator</h1>
         )
     }
 }
