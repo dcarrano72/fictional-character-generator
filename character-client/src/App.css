@@ -1,6 +1,99 @@
 .App {
   text-align: center;
   color: gray;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.view-1 {
+  border: solid 2px gray;
+  width: 48%;
+  float: left;
+  min-height: 300px;
+  margin: 10px;
+}
+
+.start-novel {
+  padding: 40px; 
+  text-align: center;
+}
+
+.start-novel-button {
+  font-size: 1em;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+
+.open-existing-novel {
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+  padding: 20px; 
+}
+
+.open-existing-novel li {
+  list-style: none;
+  margin-left: 0;
+}
+
+.view-2 {
+  border: solid 2px gray;
+  width: 47%;
+  float: right;
+  min-height: 300px;
+  margin: 10px;
+}
+
+.create-novel-form {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.create-novel-form form input {
+  font-size: 1em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.create-novel-form form textarea {
+  width: 260px;
+  font-size: 1em;
+  margin: 20px auto;
+}
+
+.create-novel-button {
+  font-size: 1em;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+
+.view-3 {
+  border: solid 2px gray;
+  width: 98%;
+  clear:both;
+  min-height: 300px;
+  margin: 10px;
+}
+
+.show-novel-info {
+  border: solid 1px gray;
+  margin: 20px; 
+  float: left;
+  width: 300px;
+  min-height: 200px;
+  padding: 20px;
 }
 
 
+
+.characters-list {
+
+}
+
+.characters-list li {
+  list-style: none;
+}

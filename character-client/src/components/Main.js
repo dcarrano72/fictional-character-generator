@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Characters from './Characters';
 
 class Main extends Component {
     constructor(props) {
@@ -11,14 +12,17 @@ class Main extends Component {
     render() {
         return (
             <div className="novels-container">
-                novels
+
                 {
                     this.props.novels.map((novel, index) => {
                         return (
                             <div className="novel" key={index}>
                                 <h3>{novel.title}</h3>
-                                <p>{novel.author}</p>
+                                <p>By: {novel.author}</p>
                                 <p>{novel.description}</p>
+                                <Characters characters={novel.characters} />
+
+                                <hr />
                             </div>
                         )
                     })
