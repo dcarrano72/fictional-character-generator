@@ -77,6 +77,8 @@
   clear:both;
   min-height: 300px;
   margin: 10px;
+  display: flex;
+  
 }
 
 .show-novel-info {
@@ -88,10 +90,18 @@
   padding: 20px;
 }
 
-
+.create-character {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px gray;
+}
 
 .characters-list {
-
+  border: solid 1px gray;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
 }
 
 .characters-list li {

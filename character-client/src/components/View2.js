@@ -5,7 +5,7 @@ class View2 extends Component {
     render() {
         return (
             <div className="view-2">
-                <CreateNovelForm />
+                <CreateNovelForm changeSelectedNovel={this.props.changeSelectedNovel} />
             </div>
         )
     }
