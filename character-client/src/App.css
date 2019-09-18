@@ -13,6 +13,15 @@
   margin: 10px;
 }
 
+/* h1, h2, h3 {
+  font-family: 'Squada One', cursive;
+} */
+
+body {
+  font-family: 'Squada One', cursive;
+  /* font-family: 'Indie Flower', cursive; */
+}
+
 .start-novel {
   padding: 40px; 
   text-align: center;
