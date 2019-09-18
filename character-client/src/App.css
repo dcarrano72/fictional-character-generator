@@ -42,7 +42,7 @@
   width: 47%;
   float: left;
   min-height: 300px;
-  margin: 10px;
+  margin-top: 20px;
 }
 
 .create-novel-form {
@@ -56,6 +56,7 @@
   font-size: 1em;
   padding: 10px;
   margin: 10px;
+  width: 246px;
 }
 
 .create-novel-form form textarea {
@@ -90,17 +91,19 @@
 }
 
 .create-character {
-  width: 400px;
+  width: 500px;
   margin: 20px;
   padding: 20px;
   border: solid 1px gray;
 }
 
 .create-character form {
-  width: 350px;
+  width: 420px;
   text-align: right;
   margin: auto;
-  padding: 20px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: solid 2px gray;
 }
 
@@ -138,7 +141,7 @@
   margin: 20px;
   text-align: left;
   margin: 10px auto;
-  width: 300px;
+  width: 400px;
 }
 
 .characters-list li {
@@ -148,4 +151,5 @@
 .novels-container {
   clear:both;
   border: solid 1px gray;
+  width: 95%;
 }
