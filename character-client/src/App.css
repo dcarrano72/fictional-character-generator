@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  color: gray;
+  color: rgb(51, 39, 31);
   padding-left: 40px;
   padding-right: 40px;
 }
 
 .view-1 {
-  border: solid 2px gray;
+  border: solid 2px rgb(51, 39, 31);
   width: 48%;
   float: left;
   min-height: 300px;
@@ -18,8 +18,12 @@
 } */
 
 body {
-  font-family: 'Squada One', cursive;
+  font-family: 'Vollkorn SC', serif;
   /* font-family: 'Indie Flower', cursive; */
+  /* background-image: url('./images/annie-spratt-xt79nQxc9Q0-unsplash.jpg');
+  background-position: center center;
+  background-attachment: fixed; */
+
 }
 
 .start-novel {
@@ -30,7 +34,7 @@ body {
 .start-novel-button {
   font-size: 1em;
   color: white;
-  background-color: gray;
+  background-color: rgb(51, 39, 31);
   padding: 10px;
 }
 
@@ -77,7 +81,7 @@ body {
 .create-novel-button {
   font-size: 1em;
   color: white;
-  background-color: gray;
+  background-color: rgb(51, 39, 31);
   padding: 10px;
 }
 
@@ -103,17 +107,18 @@ body {
   width: 500px;
   margin: 20px;
   padding: 20px;
-  border: solid 1px gray;
+  /* border: solid 1px rgb(51, 39, 31); */
 }
 
 .create-character form {
   width: 420px;
-  text-align: right;
+  /* text-align: right; */
   margin: auto;
-  padding-right: 70px;
+  text-align: left;
+  /* padding-right: 70px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  border: solid 2px gray;
+  padding-bottom: 20px; */
+  /* border: solid 2px rgb(51, 39, 31); */
 }
 
 .create-character input {
@@ -126,26 +131,26 @@ body {
 .create-character-button {
   font-size: 1em;
   color: white;
-  background-color: gray;
+  background-color: rgb(51, 39, 31);
   padding: 10px;
 }
 
 .clear-character-button {
   font-size: 1em;
   color: white;
-  background-color: gray;
+  background-color: rgb(51, 39, 31);
   padding: 10px;
 }
 
 .save-character-button {
   font-size: 1em;
   color: white;
-  background-color: gray;
+  background-color: rgb(51, 39, 31);
   padding: 10px;
 }
 
 .characters-list {
-  border: solid 1px gray;
+  border: solid 1px rgb(51, 39, 31);
   padding: 20px;
   margin: 20px;
   text-align: left;
@@ -159,6 +164,6 @@ body {
 
 .novels-container {
   clear:both;
-  border: solid 1px gray;
+  border: solid 1px rgb(51, 39, 31);
   width: 95%;
 }

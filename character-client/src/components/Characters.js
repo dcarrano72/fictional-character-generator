@@ -11,6 +11,14 @@ class Characters extends Component {
                                 <h3>Character Name: {character.name}</h3>
                                 <p>Eye color: {character.eye_color}</p>
                                 <p>Personality traits: {character.personality_traits}</p>
+                                {
+                                    // character.personality_traits ? (
+                                    //     character.personality_traits.map((trait) => {
+                                    //         return (
+                                    //             <p>{trait}</p>
+                                    //         )
+                                    //     })) : null
+                                }
                                 <hr />
                             </div>
                         )

@@ -15,7 +15,10 @@ class CreateCharacter extends Component {
             name: "",
             age: "",
             eye_color: "",
-            personality_traits: []
+            personality_traits: [],
+            trait1: "",
+            trait2: "",
+            trait3: ""
         }
         this.clearForm = this.clearForm.bind(this)
         this.saveNewCharacter = this.saveNewCharacter.bind(this)
@@ -71,7 +74,10 @@ class CreateCharacter extends Component {
             name: concatName,
             age: randomAge,
             eye_color: randomEyeColor,
-            personality_traits: personal_characteristics
+            personality_traits: personal_characteristics,
+            trait1: randomPersonalCharacteristicOne,
+            trait2: randomPersonalCharacteristicTwo,
+            trait3: randomPersonalCharacteristicThree
         })
     }
     clearForm(event) {
@@ -85,17 +91,19 @@ class CreateCharacter extends Component {
     }
 
     async saveNewCharacter(event) {
+        console.log(this.state.personality_traits);
         event.preventDefault();
         const characterData = {
-            "character": {
-                "name": "Name1",
-                "age": "56",
-                "eye_color": "green",
-                "personality_traits": ["happy"]
-            }
+            "name": this.state.name,
+            "age": this.state.age,
+            "eye_color": this.state.eye_color,
+            "personality_traits": this.state.personality_traits,
+            "novel_id": this.props.novel.id
         }
-        const newCharacter = await axios.post("http://localhost:3000/characters", characterData)
+        const newCharacter = await axios.post("https://fictional-character-generator.herokuapp.com/characters", characterData)
         console.log(newCharacter)
+
+        this.props.getNovels();
 
     }
 

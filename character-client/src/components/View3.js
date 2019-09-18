@@ -11,7 +11,7 @@ class View3 extends Component {
             <div className="view-3">
                 {/* <ShowNovelInfo novel={this.novel} /> */}
                 {/* <CharactersList characters={this.characters} /> */}
-                <CreateCharacter character={this.props.character} />
+                <CreateCharacter character={this.props.character} novel={this.props.novel} getNovels={this.props.getNovels} />
             </div>
         )
     }

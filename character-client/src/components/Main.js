@@ -18,7 +18,7 @@ class Main extends Component {
                         return (
                             <div className="novel" key={index}>
                                 <h3>{novel.title}</h3>
-                                <p>By: {novel.author}</p>
+                                {/* <p>By: {novel.author}</p> */}
                                 <p>{novel.description}</p>
                                 <Characters characters={novel.characters} />
 

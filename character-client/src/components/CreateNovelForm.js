@@ -29,9 +29,9 @@ class CreateNovelForm extends Component {
                 "description": this.state.description
             }
         }
-        const newNovel = await axios.post("http://localhost:3000/novels", novelData)
+        const newNovel = await axios.post("https://fictional-character-generator.herokuapp.com/novels", novelData)
         console.log(newNovel)
-        this.props.changeSelectedNovel(newNovel);
+        this.props.changeSelectedNovel(newNovel.data);
         this.setState({
             title: "",
             author: "",

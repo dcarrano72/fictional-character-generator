@@ -23,16 +23,18 @@ class App extends React.Component {
   }
 
   changeSelectedNovel(novel) {
+    this.getNovels()
     this.setState({
       novel: novel
     })
   }
 
   getNovels() {
-    fetch('http://localhost:3000/novels')
+    fetch('https://fictional-character-generator.herokuapp.com//novels')
       .then(response => response.json())
       .then(json => this.setState({
-        novels: json
+        novels: json.reverse(),
+        novel: json[0]
       }))
       .catch(error => console.error(error))
   }
@@ -55,7 +57,7 @@ class App extends React.Component {
         <Header />
         {/* <View1 /> */}
         <View2 changeSelectedNovel={this.changeSelectedNovel} />
-        <View3 novels={this.state.novels} />
+        <View3 novels={this.state.novels} novel={this.state.novel} getNovels={this.getNovels} />
         <Main novels={this.state.novels} />
 
 
