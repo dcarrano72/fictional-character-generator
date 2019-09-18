@@ -4,12 +4,14 @@ import CharactersList from './CharactersList';
 import CreateCharacter from './CreateCharacter';
 
 class View3 extends Component {
+
+
     render() {
         return (
             <div className="view-3">
-                <ShowNovelInfo novel={this.props.novel} />
-                <CharactersList characters={this.props.characters} />
-                <CreateCharacter />
+                {/* <ShowNovelInfo novel={this.novel} /> */}
+                {/* <CharactersList characters={this.characters} /> */}
+                <CreateCharacter character={this.props.character} />
             </div>
         )
     }

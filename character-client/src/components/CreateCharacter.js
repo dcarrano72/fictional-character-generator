@@ -106,10 +106,10 @@ class CreateCharacter extends Component {
                 <h3>Create a new character</h3>
 
                 <form>
-                    <input type="text" name="name" value={this.state.name} />
-                    <input type="text" name="age" value={this.state.age} />
-                    <input type="text" name="eye_color" value={this.state.eye_color} />
-                    <input type="text" name="personality_traits" value={this.state.personality_traits} />
+                    Name: <input type="text" name="name" value={this.state.name} /><br />
+                    Age: <input type="text" name="age" value={this.state.age} /><br />
+                    Eye color: <input type="text" name="eye_color" value={this.state.eye_color} /><br />
+                    Personality Traits: <input type="text" name="personality_traits" value={this.state.personality_traits} />
                     <button className="create-character-button" onClick={this.makeRandomCharacter}>Create Character</button>
                     <button className="clear-character-button" onClick={this.clearForm}>Clear</button>
                     <button className="save-character-button" onClick={this.saveNewCharacter}>Save</button>

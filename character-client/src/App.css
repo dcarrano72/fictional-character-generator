@@ -38,9 +38,9 @@
 }
 
 .view-2 {
-  border: solid 2px gray;
+  /* border: solid 2px gray; */
   width: 47%;
-  float: right;
+  float: left;
   min-height: 300px;
   margin: 10px;
 }
@@ -72,9 +72,8 @@
 }
 
 .view-3 {
-  border: solid 2px gray;
-  width: 98%;
-  clear:both;
+  /* border: solid 2px gray; */
+  width: 45%;
   min-height: 300px;
   margin: 10px;
   display: flex;
@@ -97,13 +96,56 @@
   border: solid 1px gray;
 }
 
+.create-character form {
+  width: 350px;
+  text-align: right;
+  margin: auto;
+  padding: 20px;
+  border: solid 2px gray;
+}
+
+.create-character input {
+  font-size: 1em;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.create-character-button {
+  font-size: 1em;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+
+.clear-character-button {
+  font-size: 1em;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+
+.save-character-button {
+  font-size: 1em;
+  color: white;
+  background-color: gray;
+  padding: 10px;
+}
+
 .characters-list {
   border: solid 1px gray;
   padding: 20px;
   margin: 20px;
+  text-align: left;
+  margin: 10px auto;
   width: 300px;
 }
 
 .characters-list li {
   list-style: none;
+}
+
+.novels-container {
+  clear:both;
+  border: solid 1px gray;
 }

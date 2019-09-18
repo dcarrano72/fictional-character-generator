@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-// import Main from './components/Main';
-import View1 from './components/View1';
+import Main from './components/Main';
+// import View1 from './components/View1';
 import View2 from './components/View2';
 import View3 from './components/View3';
 
@@ -55,8 +55,8 @@ class App extends React.Component {
         <Header />
         {/* <View1 /> */}
         <View2 changeSelectedNovel={this.changeSelectedNovel} />
-        <View3 novel={this.state.novel} />
-        {/* <Main novels={this.state.novels} /> */}
+        <View3 novels={this.state.novels} />
+        <Main novels={this.state.novels} />
 
 
       </div>

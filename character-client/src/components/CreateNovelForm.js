@@ -5,9 +5,9 @@ class CreateNovelForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            "title": "",
-            "author": "",
-            "description": ""
+            title: "",
+            author: "",
+            description: ""
         }
         this.handleChange = this.handleChange.bind(this);
         this.saveNewNovel = this.saveNewNovel.bind(this);
@@ -32,6 +32,11 @@ class CreateNovelForm extends Component {
         const newNovel = await axios.post("http://localhost:3000/novels", novelData)
         console.log(newNovel)
         this.props.changeSelectedNovel(newNovel);
+        this.setState({
+            title: "",
+            author: "",
+            description: ""
+        })
 
     }
     render() {

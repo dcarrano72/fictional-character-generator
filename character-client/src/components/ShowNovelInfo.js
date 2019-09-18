@@ -4,9 +4,9 @@ class ShowNovelInfo extends Component {
     render() {
         return (
             <div className="show-novel-info">
-                <h3>title</h3>
-                <p>author</p>
-                <p>description</p>
+                <h3>Title: </h3>
+                <p>By: </p>
+                <p>Description: </p>
             </div>
         )
     }
